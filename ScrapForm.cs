@@ -12,9 +12,16 @@ namespace CUBESCRAP
 {
     public partial class ScrapForm : Form
     {
+        private string _version = "0.0.1";
+
         public ScrapForm()
         {
             InitializeComponent();
+        }
+
+        private void ScrapForm_Load(object sender, EventArgs e)
+        {
+            this.Text = "yscube Scraping - " + _version;
         }
     }
 }

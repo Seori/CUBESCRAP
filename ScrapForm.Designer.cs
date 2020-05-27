@@ -34,9 +34,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(548, 365);
             this.Name = "ScrapForm";
             this.Text = "yscubeScraping";
+            this.Load += new System.EventHandler(this.ScrapForm_Load);
             this.ResumeLayout(false);
 
         }
